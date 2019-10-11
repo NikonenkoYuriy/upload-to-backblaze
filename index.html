@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load page</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapperDragBlock">
+            <div class="dragBlock">
+                <div class="addFile">
+                    <i class="fas fa-file-import"></i>
+                    <p>Drop down files here to get started</p>
+                    <form id='formData' enctype=multipart/form-data> <input type="file" name="files" multiple="multiple" id="file" class="inputfile">
+                        <label for="file">
+                            upload
+                            <i class="fas fa-angle-down"></i>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery.3.3.1.min.js"></script>
+        <script src="js/script.js" defer></script>
+
+</body>
+
+</html>
